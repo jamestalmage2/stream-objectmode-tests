@@ -1,0 +1,29 @@
+{
+  "name": "stream-object-mode-tests",
+  "version": "0.0.0",
+  "description": "Testing how objectMode:true and setEncoding affect transform streams",
+  "license": "MIT",
+  "repository": "jamestalmage/stream-object-mode-tests",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "through2": "^2.0.1",
+    "xo": "^0.14.0"
+  }
+}
